@@ -18,7 +18,7 @@ Notes on web development
 
 ### APIs and building your own
 
-#### How Rails knows which type of file you are expecting back when you make an HTTP request. <a name=1></a>
+#### <a name=1></a> How Rails knows which type of file you are expecting back when you make an HTTP request. 
   * Add the file extension to the html request `GET /users.json`
 
 
