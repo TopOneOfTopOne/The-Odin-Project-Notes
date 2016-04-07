@@ -5,7 +5,7 @@ Notes on web development
 
 * [Rails](#rails)
   * [APIs and building your own](#apis-and-building-your-own)
-    *[How Rails knows which type of file you are expecting back when you make an HTTP request.](#How Rails knows which type of file you are expecting back when you make an HTTP request.)
+    *[How Rails knows which type of file you are expecting back when you make an HTTP request.](#1)
     *[What is the purpose of the #respond_to method?](#What is the purpose of the #respond_to method?)
     *[ How do you return a User object but specify that you don't want to include certain attributes](#How do you return a User object but specify that you don't want to include certain attributes)
     *[How do you return a User object but specify that you don't want to include certain attributes?](#How do you return a User object but specify that you don't want to include certain attributes?)
@@ -18,7 +18,7 @@ Notes on web development
 
 ### APIs and building your own
 
-#### How Rails knows which type of file you are expecting back when you make an HTTP request.
+#### How Rails knows which type of file you are expecting back when you make an HTTP request. <a name=1></a>
   * Add the file extension to the html request `GET /users.json`
 
 
