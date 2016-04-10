@@ -96,3 +96,23 @@ Notes on web development
   * Each component of the application provides a *service* to other components of the application
   * Beneficial because each compnent can be independent thus it is easy to: isolate issuses, update/upgrade the service
   * Allows different programming languages to communicate e.g. python program and ruby program
+
+#### <a name='public-method'></a>public/private/protected methods
+[refer to this resource](https://tenderlovemaking.com/2012/09/07/protected-methods-and-ruby-2-0.html)
+
+### Working with external apis
+* What's the best way to locate an API's docs?
+  * Google "companyX API doc". First link should be most applicable 
+* What are the steps you'll almost always have to go through when setting up your app to use an API?
+* * Setup the app with resource provider 
+* What is an API key?
+* * A unique random string used to indentify your app
+
+How do you avoid including an API's secret token in your Github repo (e.g. hard coding it)?
+* Use figaro gem, follow the readme to learn how to use it
+    
+What (basically) is OAuth?
+* A protocol used to authorize & authenticate your app with the user's resource provider
+*
+What is OmniAuth and why does it save you tons of time/pain?
+* Implements OAuth protocol for you 
