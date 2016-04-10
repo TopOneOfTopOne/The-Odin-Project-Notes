@@ -104,15 +104,15 @@ Notes on web development
 * What's the best way to locate an API's docs?
   * Google "companyX API doc". First link should be most applicable 
 * What are the steps you'll almost always have to go through when setting up your app to use an API?
-* * Setup the app with resource provider 
+  * Setup the app with resource provider 
 * What is an API key?
-* * A unique random string used to indentify your app
+  * A unique random string used to indentify your app
 
 How do you avoid including an API's secret token in your Github repo (e.g. hard coding it)?
-* Use figaro gem, follow the readme to learn how to use it
+ * Use figaro gem, follow the readme to learn how to use it
     
 What (basically) is OAuth?
-* A protocol used to authorize & authenticate your app with the user's resource provider
-*
+ * A protocol used to authorize & authenticate your app with the user's resource provider
+
 What is OmniAuth and why does it save you tons of time/pain?
-* Implements OAuth protocol for you 
+ * Implements OAuth protocol for you 
