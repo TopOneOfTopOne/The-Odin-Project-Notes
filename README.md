@@ -100,7 +100,7 @@ Notes on web development
 #### <a name='public-method'></a>public/private/protected methods
 [refer to this resource](https://tenderlovemaking.com/2012/09/07/protected-methods-and-ruby-2-0.html)
 
-### Working with external apis
+# Working with external apis
 * What's the best way to locate an API's docs?
   * Google "companyX API doc". First link should be most applicable 
 * What are the steps you'll almost always have to go through when setting up your app to use an API?
