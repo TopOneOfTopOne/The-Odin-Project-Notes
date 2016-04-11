@@ -117,3 +117,7 @@ What (basically) is OAuth?
 
 What is OmniAuth and why does it save you tons of time/pain?
  * Implements OAuth protocol for you 
+
+``` bash
+rails console --sandbox # changes will be rolled back when you exit
+```
