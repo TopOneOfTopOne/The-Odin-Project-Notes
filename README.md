@@ -23,6 +23,7 @@ Notes on web development
 
 #### <a name=2></a>What is the purpose of the #respond_to method?
   * Render the object appropriately for the given html request
+  
   ``` Ruby
   def index 
     @users = User.all
