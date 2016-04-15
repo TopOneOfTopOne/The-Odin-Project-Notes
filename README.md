@@ -121,3 +121,10 @@ What is OmniAuth and why does it save you tons of time/pain?
 ``` bash
 rails console --sandbox # changes will be rolled back when you exit
 ```
+
+#### <a name='mailers'><a> Mailers
+Analogous to a controller but handles the flow of emails. Put another way controller handles HTTP and mailer handles SMTP. 
+Why do we need both html and text version of your mails?
+* Some people don't like receiving html 
+Why can't you use `*_path` link helpers in mailer views?
+* Because the mail could be opened anywhere thus relative links (i.e. `*_path`) don't work, absolute urls are needed (i.e. `*_url`)
