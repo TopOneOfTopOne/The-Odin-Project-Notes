@@ -124,6 +124,7 @@ rails console --sandbox # changes will be rolled back when you exit
 
 #### <a name='mailers'><a> Mailers
 Analogous to a controller but handles the flow of emails. Put another way controller handles HTTP and mailer handles SMTP. 
+
 Why do we need both html and text version of your mails?
 * Some people don't like receiving html 
 
