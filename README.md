@@ -137,4 +137,6 @@ Always escape user input `where('columnName = ?',user_input)` or `where(columnNa
 
 Never write to database from GET request input from user because GET requests do not use CSRF tokens. A malicious website can send requests on behalf of the compromised user.
 
-test
+### Interesting Ruby
+
+![alt](https://github.com/TopOneOfTopOne/The-Odin-Project-Notes/blob/master/asd.png)
