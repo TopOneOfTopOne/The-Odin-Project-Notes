@@ -140,3 +140,7 @@ Never write to database from GET request input from user because GET requests do
 ### Interesting Ruby
 
 ![alt](https://github.com/TopOneOfTopOne/The-Odin-Project-Notes/blob/master/asd.png)
+
+### Self
+* instance variables e.g. `@var` are bound to `self` rather than scoped bound
+* when a method is called without explicitly having a receiver e.g. `reciever.instance_method` => `instance_method` `self` becomes the receiver and the previous call becomes the equivalent of `self.instance_method` 
